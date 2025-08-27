@@ -49,7 +49,7 @@ public class Main {
                 matriz[x][y] = val;
             }
         }
-        media = (double)soma / TAMANHO_MATRIZ;
+        media = (double)soma / (TAMANHO_MATRIZ * TAMANHO_MATRIZ);
 
         for (int x = 0; x < TAMANHO_MATRIZ; x++) {
             System.out.print("Matriz[ ");
